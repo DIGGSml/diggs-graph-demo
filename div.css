@@ -1,0 +1,56 @@
+#placeholder {
+    width: 900px;
+    height: 600px;
+}
+
+body{
+	background-color: #e8e8e8;
+}
+
+#myTable{
+	border: 1px black solid;
+  
+	border-collapse: collapse;
+
+}
+
+#myTable td{
+	border: 1px black solid;
+	padding: 5px;
+    column-width:160px;
+	text-align:center;
+}
+
+#myTable th{
+	border: 1px black solid;
+	padding:10px;
+	border-collapse: collapse;
+}
+#myTable tr:hover{background-color:gray}
+
+#choices{
+	vertical-align:top;
+}
+
+#width{
+	width:50px;
+}
+
+#content{
+	width: 950px;	
+	height: 600px;
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+	
+#content td{
+	padding-top:0px;
+	
+}
+#footer {
+    color:#c1c1c1;
+    bottom: 0;
+    width: 100%;
+	text-align:center;
+}

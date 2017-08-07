@@ -1,0 +1,4039 @@
+<Diggs xmlns="http://diggsml.org/schemas/2.1.a"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://diggsml.org/schemas/2.1.a http://diggsml.org/schemas/2.1.a/Complete.xsd"
+        xmlns:diggs_geo="http://diggsml.org/schemas/2.1.a/geotechnical"
+    xmlns:witsml="http://www.witsml.org/schemas/131" xmlns:glr="http://www.opengis.net/gml/3.3/lr"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:g3.3="http://www.opengis.net/gml/3.3/ce"
+    xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:diggs="http://diggsml.org/schemas/2.1.a"
+    xmlns:glrov="http://www.opengis.net/gml/3.3/lrov"
+     gml:id="DGS765F-DA6-2E5C-4987-1FA95">
+    <documentInformation>
+        <DocumentInformation gml:id="DGS81FA-5C-3CDB-CED2-4A590">
+            <creationDate>2017-06-29</creationDate>
+        </DocumentInformation>
+    </documentInformation>
+	<project>
+		<Project gml:id="p_Boliva_4">
+			<gml:name>Bolivar Dam Seepage Barrier - Drilling and Grouting, Bolivar, Ohio</gml:name>
+			<gml:name codeSpace="Project Number">PBD04</gml:name>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Project Manager</rolePerformed>
+                    <businessAssociate>Bob Bachus</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Project Engineer</rolePerformed>
+                    <businessAssociate>Jamie Kiechlin</businessAssociate>
+                </Role>
+            </role>
+			<contract>
+				<Contract gml:id="DGS79C-A98-4502-C8B9-272B0">
+				  <gml:name codeSpace="Contract Number">W3948</gml:name>
+				  <gml:name codeSpace="Job Number">H2493</gml:name>
+				  <role>
+					<Role>
+					  <rolePerformed>Client</rolePerformed>
+					  <businessAssociateRef xlink:href="#cid_13"/>
+					</Role>
+				   </role>
+				</Contract>
+			</contract>
+			<otherProjectProperty>
+			  <Parameter gml:id="DGSA163-164C-480-F11E-262B8">
+  				<parameterName>Division</parameterName>
+  				<parameterValue>Huntington</parameterValue>
+			  </Parameter>
+			</otherProjectProperty>
+			<otherProjectProperty>
+			  <Parameter gml:id="DGS580F-13A1-448-9671-31258">
+  				<parameterName>Installation</parameterName>
+  				<parameterValue>Grout Holes</parameterValue>
+			  </Parameter>
+			</otherProjectProperty>
+			<otherProjectProperty>
+			  <Parameter gml:id="DGS3206-FEF-33D3-42FC-1D4A8">
+  				<parameterName>Watershed</parameterName>
+  				<parameterValue>Melrose</parameterValue>
+			  </Parameter>
+			</otherProjectProperty>
+			<otherProjectProperty>
+			  <Parameter gml:id="DGS8B37-1519-2F21-FA65-5F857">
+  				<parameterName>Water_Unit_Wt</parameterName>
+  				<parameterValue>1.002</parameterValue>
+			  </Parameter>
+			</otherProjectProperty>
+			<otherProjectProperty>
+			  <Parameter gml:id="DGS2610-11C9-4E65-3DF1-37FB0">
+  				<parameterName>Coeff_of_Consol_Factor</parameterName>
+  				<parameterValue>1.008</parameterValue>
+			  </Parameter>
+			</otherProjectProperty>
+		</Project>
+	</project>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_P040U">
+            <gml:name>P040U</gml:name>
+			<status>DRAFT</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociateRef xlink:href="#ba_log_4"/>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Reviewer</rolePerformed>
+                    <businessAssociateRef xlink:href="#ba_rev_4"/>
+                </Role>
+            </role>
+		      <remark>
+		 	     <Remark>
+					 <content>Test remark</content>
+				 </Remark>
+		      </remark>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS11D8-1992-3617-3FD-3C4FF">
+				  <gml:description>Seepage Barrier, West End</gml:description>
+				  <station>0+40</station>
+				  <offset>20</offset>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_P040U-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264694.698 359974.7126 983.6</gml:pos>
+                </PointLocation>
+            </referencePoint>
+			<referencePointAccuracy>
+				<LocationAccuracy>
+				  <measurementMethod>GPS</measurementMethod>
+				</LocationAccuracy>
+			</referencePointAccuracy>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_P040U-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264694.698 359974.7126 983.6 2264728.432 359981.453 924.0174522</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_P040U-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_P040U-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_P040U-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_P040U-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-60</plunge>
+				  <bearing refAzimuth="true north" uom="dega">78.7</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS10C9-2A3-3FE8-483D-4C96">
+                    <start>2015-06-16</start>
+                    <end>2015-08-12</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">68.8</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS319F-9C6-1814-F0DE-66BE0">
+				  <method>
+					<Specification gml:id="DGS4357-71F-CD6-2958-43CCA">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS44CC-A90-3904-52D5-4264B">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS22D3-4C2-2EAB-147F-30058">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+			<constructionEvent>
+				<BoreholeEvent gml:id="DGS97F4-6B0-3ED0-6037-1E5FA">
+				  <gml:description>Finished hole at 6 pm; cloudy skies, 84 degrees.</gml:description>
+				  <location>
+					<PointLocation gml:id="DGS9A3E-102A-3235-6CCC-A45F" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:pos>68.8</gml:pos>
+					</PointLocation>	  
+				  </location>
+				</BoreholeEvent>
+			</constructionEvent>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5E20-11C5-4918-D3FB-25F7">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>12</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5B29-1771-226B-AC26-34AF9">
+				<parameterName>Depth Drilled into Rock</parameterName>
+				<parameterValue>20</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5631-BD9-1C47-66CC-1C488">
+				<parameterName>Number Disturbed Samples</parameterName>
+				<parameterValue>5</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS954-63D-4E53-F78-28ECC">
+				<parameterName>Total Core Boxes</parameterName>
+				<parameterValue>3</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS3D3C-C89-C74-787A-1AF9F">
+				<parameterName>Angle from Horizontal</parameterName>
+				<parameterValue>-30</parameterValue>
+				<parameterUnits>dega</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS697C-DDF-C81-EE52-44A10">
+				<parameterName>Total Core Recovery</parameterName>
+				<parameterValue>29</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS54E8-9FE-897-C714-30325">
+				<parameterName>Start of Hole</parameterName>
+				<parameterValue>not sure what this means</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS7E72-F40-429D-4C3-160F0">
+				<parameterName>Refusal Depth</parameterName>
+				<parameterValue>40</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGSC68-2B3-1A89-2091-68">
+				<parameterName>Number Undisturbed Samples</parameterName>
+				<parameterValue>8</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_YP1_B1">
+            <gml:name>YP1_B1</gml:name>
+			<status>DRAFT</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Reviewer</rolePerformed>
+                    <businessAssociate>RC</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS5A0F-10D0-2B85-D21A-8965">
+				  <station>0+60</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_YP1_B1-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264675.086 359970.7923 984.22</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_YP1_B1-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264675.086 359970.7923 984.22 2264675.086 359970.792 834.22</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_YP1_B1-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_YP1_B1-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_YP1_B1-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_YP1_B1-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-90</plunge>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS2033-115F-2456-5AA8-FBA0">
+                    <start>2015-06-16</start>
+                    <end>2015-08-05</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">150</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS762D-17C4-2A6A-16C3-4F741">
+				  <method>
+					<Specification gml:id="DGS436B-BD1-275F-34B9-22934">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS1003-F17-D97-EB8C-A44C">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS4A77-6FC-45CD-BE9E-1C9EB">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS7104-691-731-7DC-21D6E">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>13.69999981</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_YP1_B2">
+            <gml:name>YP1_B2</gml:name>
+			<status>DRAFT</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Reviewer</rolePerformed>
+                    <businessAssociate>SD</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS848F-79B-12D2-7A01-1AB26">
+				  <station>0+80</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_YP1_B2-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264655.474 359966.8719 984.97</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_YP1_B2-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264655.474 359966.8719 984.97 2264572.266 359983.498 900.1171863</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_YP1_B2-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_YP1_B2-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_YP1_B2-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_YP1_B2-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-45</plunge>
+				  <bearing refAzimuth="true north" uom="dega">281.3</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS3925-126-2698-3450-5AA71">
+                    <start>2015-06-16</start>
+                    <end>2015-08-18</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">120</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS62C1-1351-4A3A-540E-38EE7">
+				  <method>
+					<Specification gml:id="DGSD8A-103B-20CD-F3E0-C04E">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS9AED-FDE-1BD1-25E6-32544">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS24CF-196D-A6F-756-24378">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5BE2-179D-2B0F-6733-58D70">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>15</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS8A9E-1134-39C0-FD1B-23A19">
+				<parameterName>Angle from Horizontal</parameterName>
+				<parameterValue>-45</parameterValue>
+				<parameterUnits>dega</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5315-A91-379F-2D7A-2C589">
+				<parameterName>Date Analyzed</parameterName>
+				<parameterValue>2017-01-03</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_YP2_B1">
+            <gml:name>YP2_B1</gml:name>
+			<status>DRAFT</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Reviewer</rolePerformed>
+                    <businessAssociate>DP</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS5B21-14D8-2B45-6C90-35612">
+				  <station>0+10</station>
+				  <offset>15</offset>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_YP2_B1-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264724.116 359980.5932 980.85</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_YP2_B1-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264724.116 359980.5932 980.85 2264706.781 359977.129 998.5276695</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_YP2_B1-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_YP2_B1-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_YP2_B1-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_YP2_B1-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">45</plunge>
+				  <bearing refAzimuth="true north" uom="dega">258.7</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS2637-FD8-272F-ACE1-5CF76">
+                    <start>2015-06-17</start>
+                    <end>2015-09-14</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">25</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS3E29-7BD-176E-262B-378E4">
+				  <method>
+					<Specification gml:id="DGS2575-EF5-1D13-DE6F-321F9">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS1FFC-1181-3BCA-9BE5-52035">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS1B23-14AB-1035-F2F2-6E7B">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGSA52-144B-1E5E-75B7-C890">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>9.5</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS135F-472-3D9-B583-37E42">
+				<parameterName>Date Analyzed</parameterName>
+				<parameterValue>2017-01-04</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_YP2_B2">
+            <gml:name>YP2_B2</gml:name>
+			<status>DRAFT</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS5E1F-58C-2570-BD85-4EE2A">
+				  <station>1+10</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_YP2_B2-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264626.056 359960.9913 985.63</gml:pos>
+                </PointLocation>
+            </referencePoint>
+			<referencePointAccuracy>
+				<LocationAccuracy>
+				  <measurementMethod>Survey</measurementMethod>
+				</LocationAccuracy>
+			</referencePointAccuracy>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_YP2_B2-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264626.056 359960.9913 985.63 2264650.572 359956.093 942.3287298</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_YP2_B2-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_YP2_B2-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_YP2_B2-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_YP2_B2-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-60</plunge>
+				  <bearing refAzimuth="true north" uom="dega">101.3</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS42EE-171B-3BAD-167D-428A1">
+                    <start>2015-06-15</start>
+                    <end>2015-09-02</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">50</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS77A0-67-227D-6613-1CDDE">
+				  <method>
+					<Specification gml:id="DGSA551-1489-37AF-6A0A-4D043">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS2E80-920-22AD-EFF4-CBED">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS6C5F-8E6-85B-2F14-8255">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS489B-188B-2B5C-7D89-6605C">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>15</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS248A-9B2-1FAA-477B-34C83">
+				<parameterName>Date Analyzed</parameterName>
+				<parameterValue>2017-01-05</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_HSR_N-B1">
+            <gml:name>HSR_N-B1</gml:name>
+			<status>CHECKED</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS1746-D3C-4D3A-8D90-5F563">
+				  <station>1+30</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_HSR_N-B1-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264606.444 359957.071 985.9</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_HSR_N-B1-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264606.444 359957.071 985.9 2264704.506 359976.666 812.6949192</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_HSR_N-B1-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_HSR_N-B1-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_HSR_N-B1-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_HSR_N-B1-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-60</plunge>
+				  <bearing refAzimuth="true north" uom="dega">78.7</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS6E45-B49-3770-1060-4F482">
+                    <start>2015-06-15</start>
+                    <end>2015-07-31</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">200</totalMeasuredDepth>
+            <boreholeType>R</boreholeType>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS7586-CB8-C6F-38D0-2232D">
+				  <method>
+					<Specification gml:id="DGS839D-149-2970-C03B-53F4C">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS368F-18E3-4057-AB5B-5EE8D">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS92EE-AA9-9D9-F249-539A3">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS74D1-A47-14E-2A99-1138A">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>16</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS5584-A64-87E-461D-436D9">
+				<parameterName>Date Checked</parameterName>
+				<parameterValue>2016-12-17</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_HSR_N-B2">
+            <gml:name>HSR_N-B2</gml:name>
+			<status>CHECKED</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociate>CHG and GLD</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS8E74-CBE-F05-E3AD-2717A">
+				  <station>1+50</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_HSR_N-B2-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264586.832 359953.1506 985.77</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_HSR_N-B2-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264586.832 359953.1506 985.77 2264709.409 359977.644 769.2636491</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_HSR_N-B2-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_HSR_N-B2-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_HSR_N-B2-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_HSR_N-B2-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-60</plunge>
+				  <bearing refAzimuth="true north" uom="dega">78.7</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS3648-13B9-1170-7181-18BFD">
+                    <start>2015-06-15</start>
+                    <end>2015-09-01</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">250</totalMeasuredDepth>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS935E-F9E-1DF4-62E8-5A3D3">
+				  <method>
+					<Specification gml:id="DGS624D-17D6-2960-53DF-5B105">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS2B76-6A4-E4B-581A-434">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS7C8B-1584-1649-B281-2A73F">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS8828-12FB-2303-13CD-2B0EC">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>16</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS38F0-122E-18FB-CAD4-FE9B">
+				<parameterName>Date Checked</parameterName>
+				<parameterValue>2016-12-18</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_HSR-S-B1">
+            <gml:name>HSR-S-B1</gml:name>
+			<status>CHECKED</status>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Drilling Company</rolePerformed>
+                    <businessAssociate>Terrafirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed codeSpace="Diggs">Driller</rolePerformed>
+                    <businessAssociate>Brandenburg</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>RIZZO/TerraFirm</businessAssociate>
+                </Role>
+            </role>
+            <role>
+                <Role>
+                    <rolePerformed>Logger</rolePerformed>
+                    <businessAssociateRef xlink:href="#ba_log_11"/>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+			<locale>
+				<Address gml:id="DGS637C-1877-1373-EEAF-BFD1">
+				  <gml:description>83</gml:description>
+				  <station>1+70</station>
+				</Address>
+			</locale>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_HSR-S-B1-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264567.22 359949.2302 984.4</gml:pos>
+                </PointLocation>
+            </referencePoint>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_HSR-S-B1-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264567.22 359949.2302 984.4 2264763.343 359988.419 637.9898385</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_HSR-S-B1-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_HSR-S-B1-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_HSR-S-B1-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_HSR-S-B1-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				  <plunge uom="dega">-60</plunge>
+				  <bearing refAzimuth="true north" uom="dega">78.7</bearing>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGSA521-1032-2FE8-E530-3C476">
+                    <start>2015-06-15</start>
+                    <end>2015-08-22</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">400</totalMeasuredDepth>
+			<constructionMethod>
+				<BoreholeConstructionMethod gml:id="DGS2922-1602-5FF-6F6E-4FB07">
+				  <method>
+					<Specification gml:id="DGS2938-9B0-1FC7-85B6-1C596">
+					  <gml:name>Auger/DTH</gml:name>
+					</Specification>
+				  </method>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS6181-55E-64C-E360-BAF4">
+					  <gml:name>3&quot; DTH Hammer</gml:name>
+					  <class>Size and Type of Bit</class>
+					</Equipment>
+				  </equipmentUsed>
+				  <equipmentUsed>
+					<Equipment gml:id="DGS6D73-1709-1287-F135-58BA9">
+					  <gml:name>Gill Beetle</gml:name>
+					  <class>Drilling Equipment</class>
+					</Equipment>
+				  </equipmentUsed>
+				</BoreholeConstructionMethod>
+			</constructionMethod>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS4A06-C97-3D8F-D400-281D8">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>16.5</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS20CE-858-210F-26C5-40FE7">
+				<parameterName>Depth Drilled into Rock</parameterName>
+				<parameterValue>53.20000076</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS10AE-53F-3766-8018-13326">
+				<parameterName>Date Checked</parameterName>
+				<parameterValue>2016-12-19</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGSA654-C10-52-6C22-1E463">
+				<parameterName>Refusal Depth</parameterName>
+				<parameterValue>369</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS7E41-16CE-41C0-2CEB-B683">
+				<parameterName>Number Undisturbed Samples</parameterName>
+				<parameterValue>9</parameterValue>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingFeature>
+        <Borehole gml:id="p_Boliva_4_Ghent">
+            <gml:name>Ghent</gml:name>
+            <role>
+                <Role>
+                    <rolePerformed>gINT data entered by</rolePerformed>
+                    <businessAssociate>EPRI</businessAssociate>
+                </Role>
+            </role>
+            <investigationTarget>Natural Ground</investigationTarget>
+            <projectRef xlink:href="#p_Boliva_4"/>
+            <referencePoint>
+                <PointLocation gml:id="p_Boliva_4_Ghent-pl">
+                    <gml:pos srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360">2264567.22 359949.2302 984.4</gml:pos>
+                </PointLocation>
+            </referencePoint>
+			<referencePointAccuracy>
+				<LocationAccuracy>
+				  <measurementMethod>Survey</measurementMethod>
+				</LocationAccuracy>
+			</referencePointAccuracy>
+            <centerLine>
+                <LinearExtent gml:id="p_Boliva_4_Ghent-cl">
+                    <gml:posList srsDimension="3" srsName="urn:def:crs:DIGGS:0.1:3734_6360"
+                        >2264567.22 359949.2302 984.4 2264567.220 359949.230 934.4</gml:posList>
+                </LinearExtent>
+            </centerLine>
+            <linearReferencing>
+                <LinearSpatialReferenceSystem gml:id="p_Boliva_4_Ghent-lsr">
+                    <gml:identifier codeSpace="urn:x-def:authority:DIGGSINC">urn:x-diggs:def:fi:DIGGSINC:p_Boliva_4_Ghent-lsr</gml:identifier>
+                    <glr:linearElement xlink:href="#p_Boliva_4_Ghent-cl"/>
+                    <glr:lrm>
+                        <glr:LinearReferencingMethod gml:id="p_Boliva_4_Ghent-lrm">
+                            <glr:name>chainage</glr:name>
+                            <glr:type>absolute</glr:type>
+                            <glr:units>ft</glr:units>
+                        </glr:LinearReferencingMethod>
+                    </glr:lrm>
+                </LinearSpatialReferenceSystem>
+            </linearReferencing>
+            <localCoordinates>
+				<LocalCoordinate>
+				</LocalCoordinate>
+			</localCoordinates>
+            <whenConstructed>
+                <TimeInterval gml:id="DGS1BA-3E1-1E31-2FC6-66B60">
+                    <start>2017-06-20</start>
+                    <end>2017-06-20</end>
+                </TimeInterval>
+            </whenConstructed>
+            <totalMeasuredDepth uom="ft">50</totalMeasuredDepth>
+            <boreholeType>S</boreholeType>
+            <otherBoreholeProperty>
+			  <Parameter gml:id="DGS9251-EE1-3A5A-24D2-1B080">
+				<parameterName>Overburden Thickness</parameterName>
+				<parameterValue>16.5</parameterValue>
+				<parameterUnits>ft</parameterUnits>
+			  </Parameter>
+			</otherBoreholeProperty>
+        </Borehole>
+    </samplingFeature>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_YP1_B1_90">
+ 		  <gml:name codeSpace="Run Number">47</gml:name>
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS4BD-152F-3EAB-C8E5-22E29" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+		  		<gml:posList>90 93</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_YP1_B1_90">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_YP1_B1_90-sloc" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+			  		<gml:posList>90 93</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		  <samplingEquipment>
+			<CoringDevice gml:id="DGS4BA8-E34-4043-8F36-1558E">
+			  <barrelInnerDiameter uom="in">1</barrelInnerDiameter>
+			  <barrelOuterDiameter uom="in">1.5</barrelOuterDiameter>
+			</CoringDevice>
+		  </samplingEquipment>
+		  <samplingMethod>
+			<Specification gml:id="DGS22D4-955-2DE1-5765-37638">
+				<gml:name>SPT</gml:name>
+			</Specification>
+		  </samplingMethod>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_YP1_B1_150">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS4762-EA9-401-8B0D-15A6C" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+		  		<gml:posList>150 152</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_YP1_B1_150">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_YP1_B1_150-sloc" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+			  		<gml:posList>150 152</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		  <samplingEquipment>
+			<CoringDevice gml:id="DGSA182-17DF-4F67-D531-2AEBA">
+			  <barrelOuterDiameter uom="mm">94</barrelOuterDiameter>
+			  <linerPresent>true</linerPresent>
+			  <linerType>porcelain</linerType>
+			</CoringDevice>
+		  </samplingEquipment>
+		  <samplingMethod>
+			<Specification gml:id="DGS871A-1951-14AD-2C4E-48D5A">
+				<gml:name>Core</gml:name>
+			</Specification>
+		  </samplingMethod>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_YP1_B2_50">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B2"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS2DA-8AD-3767-1C08-B81C" srsDimension="1" srsName="#p_Boliva_4_YP1_B2-lsr">
+		  		<gml:posList>50 52</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_YP1_B2_50">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_YP1_B2_50-sloc" srsDimension="1" srsName="#p_Boliva_4_YP1_B2-lsr">
+			  		<gml:posList>50 52</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		  <samplingEquipment>
+			<CoringDevice gml:id="DGS30C0-A35-2CB8-4EF5-1EFE6">
+			  <barrelInnerDiameter uom="in">1</barrelInnerDiameter>
+			  <barrelOuterDiameter uom="in">1.5</barrelOuterDiameter>
+			</CoringDevice>
+		  </samplingEquipment>
+		  <samplingMethod>
+			<Specification gml:id="DGS878C-7EC-1E10-65D5-583AD">
+				<gml:name>SPT</gml:name>
+			</Specification>
+		  </samplingMethod>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_YP2_B1_20">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP2_B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS44B8-128A-34B3-6731-63A62" srsDimension="1" srsName="#p_Boliva_4_YP2_B1-lsr">
+		  		<gml:posList>20 23</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_YP2_B1_20">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_YP2_B1_20-sloc" srsDimension="1" srsName="#p_Boliva_4_YP2_B1-lsr">
+			  		<gml:posList>20 23</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_YP2_B2_20">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP2_B2"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS6C4F-D34-11DD-93FA-4E7D3" srsDimension="1" srsName="#p_Boliva_4_YP2_B2-lsr">
+		  		<gml:posList>20 23</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_YP2_B2_20">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_YP2_B2_20-sloc" srsDimension="1" srsName="#p_Boliva_4_YP2_B2-lsr">
+			  		<gml:posList>20 23</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_HSR_N-B1_125">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR_N-B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS4C95-1724-16A4-A981-5D561" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B1-lsr">
+		  		<gml:posList>125 126</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_HSR_N-B1_125">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_HSR_N-B1_125-sloc" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B1-lsr">
+			  		<gml:posList>125 126</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_HSR_N-B2_125">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR_N-B2"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS2F35-96B-123-4AD2-672F3" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B2-lsr">
+		  		<gml:posList>125 127</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_HSR_N-B2_125">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_HSR_N-B2_125-sloc" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B2-lsr">
+			  		<gml:posList>125 127</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_HSR-S-B1_120">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR-S-B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS7FB8-EDD-3074-4410-3548F" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+		  		<gml:posList>120 121</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_HSR-S-B1_120">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_HSR-S-B1_120-sloc" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+			  		<gml:posList>120 121</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_HSR-S-B1_210">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR-S-B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS8524-15F0-774-8998-2B8E2" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+		  		<gml:posList>210 213</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_HSR-S-B1_210">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_HSR-S-B1_210-sloc" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+			  		<gml:posList>210 213</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_HSR-S-B1_340">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR-S-B1"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGSC4F-B8D-37E9-7EC6-2AAB8" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+		  		<gml:posList>340 342</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_HSR-S-B1_340">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_HSR-S-B1_340-sloc" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+			  		<gml:posList>340 342</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_P040U_23.25">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_P040U"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS9E8E-1931-2F50-8716-407EA" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+		  		<gml:posList>23.25 24.25</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_P040U_23.25">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_P040U_23.25-sloc" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+			  		<gml:posList>23.25 24.25</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		  <samplingDate>
+		     <TimeInterval gml:id="DGSEF5-4B8-16AF-4C7-10005">
+	        <start>2015-06-18</start>
+		    </TimeInterval>
+		  </samplingDate>
+		</SamplingActivity>
+	</samplingActivity>
+	<samplingActivity>
+		<SamplingActivity gml:id="sa_p_Boliva_4_Ghent_10">
+  		  <investigationTarget>Natural Ground</investigationTarget>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_Ghent"/>
+		  <activityLocation>
+		  	<LinearExtent gml:id="DGS467B-E08-2CAC-C651-480E" srsDimension="1" srsName="#p_Boliva_4_Ghent-lsr">
+		  		<gml:posList>10 15</gml:posList>
+			</LinearExtent>
+		  </activityLocation>
+		  <activityType>collect</activityType>
+		  <sampleProduced>
+			<SampleProduced gml:id="sp_p_Boliva_4_Ghent_10">
+			  <sampleLocation>
+			  	<LinearExtent gml:id="s_p_Boliva_4_Ghent_10-sloc" srsDimension="1" srsName="#p_Boliva_4_Ghent-lsr">
+			  		<gml:posList>10 14.5</gml:posList>
+				</LinearExtent>	  
+			  </sampleLocation>
+			</SampleProduced>
+		  </sampleProduced>
+		</SamplingActivity>
+	</samplingActivity>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_YP1_B1_90">
+		  <gml:name>s_p_Boliva_4_YP1_B1_90</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_YP1_B1_90"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_YP1_B1_90"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_YP1_B1_90-sloc"/>
+		  <classification>soil</classification>
+		  <initialContainerType>Bag</initialContainerType>
+		  <initialContainerLabel>1</initialContainerLabel>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS4412-182-18F2-9921-3648B">
+			  <diameter uom="in">1</diameter>
+			  <length uom="ft">3</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+          <otherSampleProperty>
+			<Parameter gml:id="DGS6410-86F-48BE-C38B-3C627">
+  			  <parameterName>Specific_Gravity</parameterName>
+  			  <parameterValue>2.67</parameterValue>
+			 </Parameter>
+		  </otherSampleProperty>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_YP1_B1_150">
+		  <gml:name>s_p_Boliva_4_YP1_B1_150</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_YP1_B1_150"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_YP1_B1_150"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_YP1_B1_150-sloc"/>
+		  <classification>rock</classification>
+		  <initialContainerType>Box</initialContainerType>
+		  <initialContainerLabel>B1-150</initialContainerLabel>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS4869-12BE-D09-F23-19835">
+			  <length uom="ft">2</length>
+			  <rockQualityDesignation uom="%">75</rockQualityDesignation>
+			  <lengthLongestPortion uom="ft">1</lengthLongestPortion>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+          <otherSampleProperty>
+			<Parameter gml:id="DGS7F44-1857-1BA0-ADC0-52FDA">
+  			  <parameterName>Specific_Gravity</parameterName>
+  			  <parameterValue>2.67</parameterValue>
+			 </Parameter>
+		  </otherSampleProperty>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_YP1_B2_50">
+		  <gml:name>s_p_Boliva_4_YP1_B2_50</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_YP1_B2_50"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_YP1_B2_50"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_YP1_B2_50-sloc"/>
+		  <classification>soil</classification>
+		  <initialContainerType>Bag</initialContainerType>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS5F2-1452-26AD-346F-3F229">
+			  <diameter uom="in">1</diameter>
+			  <length uom="ft">2</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+          <otherSampleProperty>
+			<Parameter gml:id="DGS987B-1830-3445-3B4-45685">
+  			  <parameterName>Specific_Gravity</parameterName>
+  			  <parameterValue>2.67</parameterValue>
+			 </Parameter>
+		  </otherSampleProperty>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_YP2_B1_20">
+		  <gml:name>s_p_Boliva_4_YP2_B1_20</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_YP2_B1_20"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_YP2_B1_20"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_YP2_B1_20-sloc"/>
+		  <initialContainerType>Bag</initialContainerType>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGSA1D9-3E-4C49-12B3-1EC13">
+			  <length uom="ft">3</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_YP2_B2_20">
+		  <gml:name>s_p_Boliva_4_YP2_B2_20</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_YP2_B2_20"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_YP2_B2_20"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_YP2_B2_20-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS61B9-14AC-33A-DE0-3B2BF">
+			  <length uom="ft">3</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_HSR_N-B1_125">
+		  <gml:name>s_p_Boliva_4_HSR_N-B1_125</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_HSR_N-B1_125"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_HSR_N-B1_125"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_HSR_N-B1_125-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS34D1-A8D-28CD-BA42-2F4A6">
+			  <length uom="ft">1</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_HSR_N-B2_125">
+		  <gml:name>s_p_Boliva_4_HSR_N-B2_125</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_HSR_N-B2_125"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_HSR_N-B2_125"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_HSR_N-B2_125-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS3617-1E5-20B3-917D-500CD">
+			  <length uom="ft">2</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_HSR-S-B1_120">
+		  <gml:name>s_p_Boliva_4_HSR-S-B1_120</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_HSR-S-B1_120"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_HSR-S-B1_120"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_HSR-S-B1_120-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS615F-10AE-409D-69DB-53929">
+			  <length uom="ft">1</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_HSR-S-B1_210">
+		  <gml:name>s_p_Boliva_4_HSR-S-B1_210</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_HSR-S-B1_210"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_HSR-S-B1_210"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_HSR-S-B1_210-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS78F6-11BD-3A77-30D5-511F5">
+			  <length uom="ft">3</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_HSR-S-B1_340">
+		  <gml:name>s_p_Boliva_4_HSR-S-B1_340</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_HSR-S-B1_340"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_HSR-S-B1_340"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_HSR-S-B1_340-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGSBB8-659-4C08-D031-17035">
+			  <length uom="ft">2</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_P040U_23.25">
+		  <gml:name>s_p_Boliva_4_P040U_23.25</gml:name>
+	      <remark>
+	 	     <Remark>
+			  <content>100% LOC</content>
+			</Remark>
+	      </remark>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_P040U_23.25"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_P040U_23.25"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_P040U_23.25-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS1EE8-610-4A08-4163-1AD59">
+			  <length uom="ft">1</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<sample>
+		<Sample gml:id="s_p_Boliva_4_Ghent_10">
+		  <gml:name>s_p_Boliva_4_Ghent_10</gml:name>
+		  <samplingActivityRef xlink:href="#sa_p_Boliva_4_Ghent_10"/>
+		  <sampleProducedRef xlink:href="#sp_p_Boliva_4_Ghent_10"/>
+		  <sampleLocationRef xlink:href="#s_p_Boliva_4_Ghent_10-sloc"/>
+		  <cylindricalSampleDetails>
+			<CylindricalSampleDetail gml:id="DGS77DE-1103-3DD4-C0B1-20584">
+			  <length uom="ft">4.5</length>
+			</CylindricalSampleDetail>
+		  </cylindricalSampleDetails>
+		</Sample>
+	</sample>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS8A57-1264-47AD-3882-25561">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_P040U"/>
+		  <lithologyClassificationType>AASHTO</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS5CD4-919-1058-9303-420F0">
+				<location>
+					<LinearExtent gml:id="DGS1765-18F-32BC-D4EE-43349" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>0 12</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS474A-4CA-27A3-F71A-50AC8">
+					  <classificationCode>SM</classificationCode>
+					  <lithDescription>Tan, dry, silty SAND with gravels and clay</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS3FDA-C66-2BC2-AB22-4013">
+				<location>
+					<LinearExtent gml:id="DGS6CAE-1704-1B3B-1DC5-2C9ED" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>12 17.5</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS8173-92A-20F5-BDD4-2DC76">
+					  <classificationCode>CLAYST</classificationCode>
+					  <lithDescription>Dark gray, soft to moderately hard CLAYSTONE</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS78C4-CF7-DE2-469B-9265">
+				<location>
+					<LinearExtent gml:id="DGSA43C-741-3172-4DDC-595EF" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>17.5 20</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS3583-145A-DF3-4C30-7A02">
+					  <classificationCode>SHALE</classificationCode>
+					  <lithDescription>Shale: gray and soft</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS52C5-B96-2FD2-7AF-215ED">
+				<location>
+					<LinearExtent gml:id="DGS16C1-85E-3CCC-9F4A-650A8" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>20 22</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS8ADC-E2D-308C-304D-5E94B">
+					  <classificationCode>LIMEST</classificationCode>
+					  <lithDescription>Limestone: dark gray, hard.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS3573-F5D-2FC7-C2C5-4AF72">
+				<location>
+					<LinearExtent gml:id="DGS7347-1375-14A5-8B97-35627" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>22 42</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS5ED4-735-2144-5901-65EAC">
+					  <classificationCode>SHALE</classificationCode>
+					  <lithDescription>Shale: light gray to gray, moderately hard to soft, oily drill water, interbedded shale.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS5704-EEA-2533-823-279BF">
+				<location>
+					<LinearExtent gml:id="DGS171A-10BD-C42-3247-275D0" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>42 48</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS1009-FBF-3831-6F9F-2C21D">
+					  <classificationCode>CLAYST</classificationCode>
+					  <lithDescription>Claystone: soft, gray</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS3861-11EE-110C-B28-5CE91">
+				<location>
+					<LinearExtent gml:id="DGS73F-BBD-3B1E-BFC8-5640D" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>48 55</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS232D-BFE-4570-D256-2B08A">
+					  <classificationCode>LIMEST</classificationCode>
+					  <lithDescription>Limestone: gray, very hard, slow drilling.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS4D98-8ED-13F1-CCEE-39133">
+				<location>
+					<LinearExtent gml:id="DGS5A4D-1009-70D-B48E-1B0D3" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>55 59</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS9A9-70B-4CD8-5307-43EA7">
+					  <classificationCode>CLAYST</classificationCode>
+					  <lithDescription>Claystone: gray, fast drilling.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS3CFB-977-1A25-3688-1643B">
+				<location>
+					<LinearExtent gml:id="DGS46FF-FCD-1351-AE39-3DDBC" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>59 68</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS6522-204-393-26E7-19D19">
+					  <classificationCode>SANDSTONE</classificationCode>
+					  <lithDescription>Sandstone: brown to rusty brown, hard Interbedded gray clay seams.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS42E6-EF1-1702-D461-5E2BA">
+				<location>
+					<LinearExtent gml:id="DGS585A-9EA-38-3FB4-11132" srsDimension="1" srsName="#p_Boliva_4_P040U-lsr">
+						<gml:posList>68 68.8</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS6C3C-191B-18F4-3D1F-5C208">
+					  <classificationCode>COAL</classificationCode>
+					  <lithDescription>Coal: shiney black, hard.</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS15C0-E94-308D-9AF2-48C1C">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B1"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS8E9C-27F-1F8E-D0EF-1C1D9">
+				<location>
+					<LinearExtent gml:id="DGS71D2-A23-42C0-6DE8-57A81" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+						<gml:posList>90 93</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS24B5-12B5-47ED-3745-66FC1">
+					  <classificationCode>SW</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGSA205-164B-29D3-A54A-2FE2E">
+				<location>
+					<LinearExtent gml:id="DGS1A44-1074-3103-D8D8-26831" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+						<gml:posList>150 152</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS8E9-CF1-45E-5F36-2F50D">
+					  <remark>
+						 <Remark>
+						  <content>This is a remark</content>
+						</Remark>
+					  </remark>
+					  <classificationCode>SP</classificationCode>
+					  <lithDescription>Poorly graded sand</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS31FF-18C7-108-A50E-40624">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B2"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS5976-C1-3959-4FBE-66E48">
+				<location>
+					<LinearExtent gml:id="DGS30D4-955-19BC-59E3-18B51" srsDimension="1" srsName="#p_Boliva_4_YP1_B2-lsr">
+						<gml:posList>50 52</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS6376-11F8-1574-9219-3C7CB">
+					  <classificationCode>GP</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGSA637-17D5-13FF-CDB2-50BA3">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP2_B1"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS4466-101E-277E-7E96-DF65">
+				<location>
+					<LinearExtent gml:id="DGSA2A3-48B-2F2A-AD12-B7D1" srsDimension="1" srsName="#p_Boliva_4_YP2_B1-lsr">
+						<gml:posList>20 23</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS6D36-12E3-3E67-6D94-8ACE">
+					  <classificationCode>SW</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS53D6-EB4-4C6-68BB-C663">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP2_B2"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS1880-80D-4F41-9974-1CD50">
+				<location>
+					<LinearExtent gml:id="DGS45D8-C07-50E-7454-2DDD1" srsDimension="1" srsName="#p_Boliva_4_YP2_B2-lsr">
+						<gml:posList>20 23</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS9E8E-6FC-DE3-8083-240A2">
+					  <remark>
+						 <Remark>
+						  <content>This is a remark</content>
+						</Remark>
+					  </remark>
+					  <classificationCode>SP</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS560E-A25-14C1-1119-433A0">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR_N-B1"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS3D32-DFB-4687-6B6B-3E565">
+				<location>
+					<LinearExtent gml:id="DGS3FE3-177-8C1-2509-F331" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B1-lsr">
+						<gml:posList>125 126</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS7F87-6C5-B14-AB9-489F2">
+					  <classificationCode>SW</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS8DAE-D3D-4009-F9BF-37021">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR_N-B2"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGSB6C-FFE-1A59-46B2-479AC">
+				<location>
+					<LinearExtent gml:id="DGS4373-9D6-106D-DE6C-FDC3" srsDimension="1" srsName="#p_Boliva_4_HSR_N-B2-lsr">
+						<gml:posList>125 127</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS4361-F95-2BEE-B93A-CEE6">
+					  <classificationCode>SP</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS3685-33-3EAC-EA05-1F678">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR-S-B1"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS25ED-1863-F21-69EB-26077">
+				<location>
+					<LinearExtent gml:id="DGS367E-1911-2E52-85B7-E0F8" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+						<gml:posList>120 121</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS96C5-CC-3F67-B6A0-1999C">
+					  <classificationCode>SW</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS9E14-BF2-39EB-64CE-18536">
+				<location>
+					<LinearExtent gml:id="DGS651C-E1A-24F0-A4DF-50530" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+						<gml:posList>210 213</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGSAEE-406-804-D04-3937D">
+					  <classificationCode>SP</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGSA094-5C9-1BB9-E21C-32666">
+				<location>
+					<LinearExtent gml:id="DGS26EB-15BE-57C-21CE-651B4" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+						<gml:posList>340 342</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS8BE8-1511-4FBB-3CB8-457F9">
+					  <classificationCode>SW</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS690B-18D6-21A8-E65-5C175">
+				<location>
+					<LinearExtent gml:id="DGS1B4F-660-30A2-5CC4-3776C" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+						<gml:posList>342 360</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS9A14-DFC-4CC6-C228-2A76D">
+					  <classificationCode>ML</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		  <description>
+			<LithologyDescription gml:id="DGS7ED9-EAE-239A-B93-40C3">
+				<location>
+					<LinearExtent gml:id="DGS3CEE-AA5-1D3B-A03F-12D8C" srsDimension="1" srsName="#p_Boliva_4_HSR-S-B1-lsr">
+						<gml:posList>360 400</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS48DF-400-4DA5-45C3-6298">
+					  <classificationCode>CL</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS8704-122B-1429-C8AD-5B3EF">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_Ghent"/>
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGSA509-6EF-2509-E7D2-60CA4">
+				<location>
+					<LinearExtent gml:id="DGS53E5-16A1-2DCC-6B35-55E99" srsDimension="1" srsName="#p_Boliva_4_Ghent-lsr">
+						<gml:posList>1 50</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS79ED-16EA-C48-C48C-45E60">
+					  <classificationCode>CL</classificationCode>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS995C-1553-3E34-C524-31AC4">
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B1_90" />
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS7BC9-E72-D29-4F1A-310EF">
+				<location>
+					<LinearExtent gml:id="DGS9607-162A-1EBE-F52A-34C22" srsDimension="1" srsName="#p_Boliva_4_YP1_B1-lsr">
+						<gml:posList>90 93</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGSA51C-B6F-3E54-4E5B-8449">
+					  <classificationCode method="visual">SW-SM</classificationCode>
+					  <classificationCode method="measured">SM</classificationCode>
+					  <lithDescription>SAND with silt, very dark gray, 5Y3/1, no effervescence.</lithDescription>
+					  <color>
+						<Color gml:id="DGS9399-ED2-44ED-CD93-50842">
+						  <colorCode codeSpace="Munsell">5Y3/1</colorCode>
+						</Color>
+					  </color>
+					  <fieldProperties>
+						<FieldProperties gml:id="DGS9B04-149-41FC-39EE-1CD1E">
+						  <consistency>loose</consistency>
+						  <moistureCondition>dry</moistureCondition>
+						</FieldProperties>
+					  </fieldProperties>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS8D5-171B-4F08-4299-389B1">
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B2_50" />
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS398E-574-1019-20DC-3F6D1">
+				<location>
+					<LinearExtent gml:id="DGS6254-15ED-70F-32DD-427BC" srsDimension="1" srsName="#p_Boliva_4_YP1_B2-lsr">
+						<gml:posList>50 52</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS4D41-750-42AD-4DF1-66277">
+					  <classificationCode method="visual">ML</classificationCode>
+					  <classificationCode method="measured">ML</classificationCode>
+					  <lithDescription>Sandy SILT, very dark grayish brown, 2.5Y3/2</lithDescription>
+					  <color>
+						<Color gml:id="DGS42A1-1441-4076-9A52-255A6">
+						  <colorCode codeSpace="Munsell">2.5Y3/2</colorCode>
+						</Color>
+					  </color>
+					  <fieldProperties>
+						<FieldProperties gml:id="DGS623C-10E8-2EA8-EF1-581A6">
+						  <consistency>friable</consistency>
+						  <moistureCondition>moist</moistureCondition>
+						</FieldProperties>
+					  </fieldProperties>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS9E8-3DF-1944-6EA0-2C64B">
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP2_B1_20" />
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS8FAE-171-47C8-3CEA-5844">
+				<location>
+					<LinearExtent gml:id="DGS82ED-F0-AE8-A9ED-1B91D" srsDimension="1" srsName="#p_Boliva_4_YP2_B1-lsr">
+						<gml:posList>20 23</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS8D4E-561-1219-8086-40F96">
+					  <classificationCode method="visual">SM </classificationCode>
+					  <classificationCode method="measured">SM</classificationCode>
+					  <lithDescription>silty SAND, pale olive, 5Y6/3, well sorted, medium bedded</lithDescription>
+					  <color>
+						<Color gml:id="DGS65CB-290-4B6F-6128-246C0">
+						  <colorCode codeSpace="Munsell">5Y6/3</colorCode>
+						</Color>
+					  </color>
+					  <fieldProperties>
+						<FieldProperties gml:id="DGS6AD-16C6-277B-6772-61A53">
+						  <consistency>firm</consistency>
+						  <moistureCondition>moist</moistureCondition>
+						</FieldProperties>
+					  </fieldProperties>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<fieldDescription>
+		<LithologySystem gml:id="DGS2A27-E2D-38F-CEBA-31471">
+		  <sampleRef xlink:href="#s_p_Boliva_4_Ghent_10" />
+		  <lithologyClassificationType>USCS</lithologyClassificationType>
+		  <description>
+			<LithologyDescription gml:id="DGS5B8B-9A3-BC4-BA27-171A1">
+				<location>
+					<LinearExtent gml:id="DGS2346-845-21E7-BC38-C6B4" srsDimension="1" srsName="#p_Boliva_4_Ghent-lsr">
+						<gml:posList>10 14.5</gml:posList>
+					</LinearExtent>
+				</location>
+				<primaryLithology>
+					<Lithology gml:id="DGS491B-1519-2DDD-C343-1ED2A">
+					  <lithDescription>Gypsum</lithDescription>
+					</Lithology>
+				</primaryLithology>
+			</LithologyDescription>
+		  </description>
+		</LithologySystem>
+	</fieldDescription>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_YP1_B1_90">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B1_90"/>
+		  <outcome>
+			<TestResult gml:id="DGSBD5-FF6-2833-AECB-24F29">
+			  <location xlink:href="#s_p_Boliva_4_YP1_B1_90-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS6A34-41C-4887-5DDB-5572E">
+					  <properties>
+						<Property gml:id="DGS1B85-CC6-2B3-BDD8-58276" index="1">
+						  <propertyName>Water Content</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">natural_water_content</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS316C-AC7-2924-FF-45C8D" index="2">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGSA3D7-264-3E6F-B37-6547B" index="3">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGSA7B9-119F-3707-2D91-1251E" index="4">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGSA22E-11C8-46CF-204E-FC63" index="5">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS2D49-CE-19ED-E500-191F6" index="6">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS7597-1542-6F4-CFCC-55336" index="7">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS21EC-2A9-31E9-133C-414DE" index="8">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS4D70-1821-F6F-4B9D-3FA00" index="9">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS296A-802-779-D7-64567" index="10">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">29,0.874316939890711,8.13333333333333,0.075,0.2,0.42,0.61,10,10,86</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS7B1B-AF2-24C4-74EA-59C8B">
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_YP1_B1_90-wc">
+				  <gml:description>Specimen for water content</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B1_90" />
+				  <drySpecimenWeight uom="g">100</drySpecimenWeight>
+				  <wetSpecimenWeight uom="g">129</wetSpecimenWeight>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS44FB-1216-1E17-6230-18DC6">
+					  <parameterName>Tare Weight</parameterName>
+					  <parameterValue>0</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS2623-1C9-3F37-D0E1-22D97">
+					  <parameterName>Weighing Method</parameterName>
+					  <parameterValue>I</parameterValue>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				</SpecimenConditions>  
+			  </initialSpecimenConditions>
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_YP1_B1_90-ts">
+				  <gml:description>Total Specimen</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B1_90" />
+				  <wetSpecimenWeight uom="g">129</wetSpecimenWeight>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS4676-196E-37EB-7C8F-5762B">
+					  <parameterName>Weight Passing Split Sieve</parameterName>
+					  <parameterValue>90.30000305</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS3908-3E7-4875-81B2-52AD9">
+					  <parameterName>Weighing Method</parameterName>
+					  <parameterValue>I</parameterValue>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				</SpecimenConditions>  
+			  </initialSpecimenConditions>
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS6721-8D7-4CFE-5E3D-1FD49">
+				  <diggs_geo:coarseFractionWetSieved>false</diggs_geo:coarseFractionWetSieved>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS24AC-13CE-4781-1CDA-5EC72">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">0</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS684C-16C6-3C8C-5344-38711">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">98</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">2</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS8A44-3EC-3F75-6CD8-39074">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">95</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">3</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSBFC-172-42D3-F9E9-2056">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">90</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">5</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6E2A-186A-99A-61A3-33AC6">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">81</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">9</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS9701-456-4208-A5BE-174ED">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">69</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">12</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS7D8-1752-2742-AA3E-6E71">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">49</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">20</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS249-1875-10CB-E2BE-2EB8F">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">22</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">27</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS1C83-75B-3C01-D8D1-1AD5C">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">10</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">12</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS3A43-1636-44B0-698F-3E75F">
+					  <diggs_geo:percentLoss uom="%">0</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">10</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">60.2</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_YP1_B1_150">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B1_150"/>
+		  <outcome>
+			<TestResult gml:id="DGS1FCC-1829-14AE-47D-21C8F">
+			  <location xlink:href="#s_p_Boliva_4_YP1_B1_150-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS64B3-9B2-335F-BC69-4A932">
+					  <properties>
+						<Property gml:id="DGS1F03-179-13AF-3255-66579" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS1DC6-10C9-48B7-44FF-1AE2E" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS815B-1369-1F22-276C-3BDBB" index="3">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS1427-6F3-448E-A9E5-30CC1" index="4">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS5EFC-5F1-14C-40D4-63DF5" index="5">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS93B-15D2-677-B6E9-1C212" index="6">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS9916-15D-2FD8-7ED5-5BC8D" index="7">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS4AB2-1541-421B-11F6-3CEA7" index="8">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS5530-1446-2273-F81B-EE01" index="9">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS70D8-11B9-3AAA-7E10-67B37" index="10">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS8F21-46D-3520-4626-5B45D" index="11">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">0,0,1.03157894736842,2.10526315789474,0.95,1.4,1.8,2,0,36,64</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS7B11-A19-7CC-9CE9-B46D">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS70F7-7EC-6F8-A0B6-39885">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6133-1583-4AB1-3593-F8DB">
+					  <diggs_geo:particleSize uom="mm">76.1</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>3&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS7825-14BF-199E-D79F-51931">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">95</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4026-EF3-1DAB-8478-31C61">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">69</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6273-13D1-1A1E-42AF-5AC9E">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">66</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2B74-40E-CD2-3D4F-127D3">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">64</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS57E8-189B-1F88-4B91-467A6">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">60</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS26CF-11BA-1A46-C59-63136">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">2</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2DD5-1143-4FE0-606B-264FA">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">0</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS4CD3-1267-1473-DD91-51EC3">
+					  <diggs_geo:percentLoss uom="%">0.2</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">0</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">0</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_YP1_B2_50">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP1_B2_50"/>
+		  <outcome>
+			<TestResult gml:id="DGS4DE3-336-FE9-3E32-68609">
+			  <location xlink:href="#s_p_Boliva_4_YP1_B2_50-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS29E-861-38EF-48CF-21366">
+					  <properties>
+						<Property gml:id="DGS1900-842-262B-EABD-417D" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS800F-1E3-3261-AE6C-5192A" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS43FA-1372-DE1-EDD2-21FAC" index="3">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGSB94-7A9-33FD-28D8-5C162" index="4">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS1B5C-B22-4A20-7691-67B2E" index="5">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS485F-139A-390D-3431-115E8" index="6">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS6EF0-192E-3DE3-9044-283B4" index="7">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS2E7D-138E-130B-B157-3FEAA" index="8">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS1F62-188A-4154-A7AC-7270" index="9">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS4E12-289-34CB-C5B6-2FDBC" index="10">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS17F-D98-30F6-DB49-21073" index="11">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">0,0,1.15714285714286,1.42857142857143,14,18,19,20,0,100,0</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS2F07-FB1-1D36-8A60-42C00">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS6E10-3E4-3711-EFAD-50E58">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS9E50-3D5-1812-B85C-1A89E">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS9FBD-185B-43F6-E55E-13D9B">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">90</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS9B8A-2E8-3F5F-B953-61E7D">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">2</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4D0C-1740-D94-7DFB-2765A">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">0</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS6453-E9-1BC0-B8DD-81F8">
+					  <diggs_geo:percentRetained uom="%">0</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">0</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_YP2_B1_20">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP2_B1_20"/>
+		  <outcome>
+			<TestResult gml:id="DGS27EF-1B7-42D2-3357-51310">
+			  <location xlink:href="#s_p_Boliva_4_YP2_B1_20-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGSA3EB-1471-2670-AD24-1D0E9">
+					  <properties>
+						<Property gml:id="DGSD88-8B1-134D-6F38-22AC0" index="1">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS6BA4-AFD-4353-7646-2F04B" index="2">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS6872-112F-4FCD-9A2-399F0" index="3">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS90F-F9E-D90-7DA5-2EF64" index="4">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGSA603-F57-3C22-4897-5E532" index="5">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS8E26-853-4532-820C-1603D" index="6">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS94A5-C76-4EBE-75D-65ED2" index="7">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS8E76-755-106E-7089-47D50" index="8">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS2F2B-18B2-EAD-A648-5379" index="9">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS92DF-165-26E3-77E4-B7B1" index="10">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">3,0.284210526315789,126.666666666667,0.0075,0.045,0.42,0.95,51,7,3</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS1092-954-452-F47C-68089">
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_YP2_B1_20-ts">
+				  <gml:description>Total Specimen</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_YP2_B1_20" />
+				  <wetSpecimenWeight uom="g">472</wetSpecimenWeight>
+				</SpecimenConditions>  
+			  </initialSpecimenConditions>
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS6058-21-317C-BDDD-28C66">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5F31-42E-357A-35C0-3E36F">
+					  <diggs_geo:particleSize uom="mm">76.1</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>3&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">91</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS8F01-E17-4D53-5EE3-419F9">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">85</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS16F7-12E6-3945-DDE5-55DCE">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">77</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6F84-6F6-2432-9619-7BC6">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">65</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS13B2-1849-144C-DEF9-3C937">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">54</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2146-1626-1114-4E3D-4F7F">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">54</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4B1B-871-31AD-5E68-621BC">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">53</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS7AE7-1A3-1B48-6166-3BF0A">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">53</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS299F-17E7-2157-4811-61206">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">52</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS7661-17EC-2697-517D-53E8A">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">51</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSAF8-283-3830-37C5-26608">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.005</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">3</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS8129-58D-1AFE-46B7-32D59">
+					  <diggs_geo:percentRetained uom="%">51</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">102</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_YP2_B2_20">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_YP2_B2_20"/>
+		  <outcome>
+			<TestResult gml:id="DGSA1E2-1103-4284-773F-2280E">
+			  <location xlink:href="#s_p_Boliva_4_YP2_B2_20-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS9166-F30-1A77-8C3E-2C0A">
+					  <properties>
+						<Property gml:id="DGS931A-B66-2D49-2917-13D3A" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS64EF-1C1-4F55-EE30-5D3E8" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS8F01-184E-1EB1-D575-28300" index="3">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS4BE2-158A-41AE-9F6A-2B216" index="4">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS16F6-1121-A89-9A-2004E" index="5">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS62D0-8E7-3654-8B58-1E2BE" index="6">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS2408-B3D-22EF-5DC7-672D7" index="7">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS3904-937-4DDE-4BE9-1B9DC" index="8">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS274E-110D-29D1-ECEA-2F6A4" index="9">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS61B2-818-E46-162D-553CF" index="10">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS4E4C-B8C-1BC3-C5A-6529D" index="11">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">0,0,0.833333333333333,1.875,0.08,0.1,0.14,0.15,0,0,100</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS632A-70D-258B-54C7-5821E">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS76A7-16A2-109B-1C3F-313A4">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS14E2-40B-27F7-D449-47572">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS81CF-154-1267-9726-67A13">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">99</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS82F3-489-305C-A70F-616DB">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">95</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5561-D7A-1F2F-7C0F-557CF">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">60</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS979C-FDF-4CFA-25AE-5D857">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">4</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS9E38-9C6-4E06-6634-48077">
+					  <diggs_geo:percentRetained uom="%">4</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">18.7</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_HSR_N-B1_125">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_HSR_N-B1_125"/>
+		  <outcome>
+			<TestResult gml:id="DGS6039-9C2-275F-BCFE-467CA">
+			  <location xlink:href="#s_p_Boliva_4_HSR_N-B1_125-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS57C4-19-33EE-E19F-22C1F">
+					  <properties>
+						<Property gml:id="DGS4CA8-1729-29E7-7611-13C4D" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS5EA6-609-2905-BCD3-599B" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS5D03-B75-2943-40AB-43DB7" index="3">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS375F-1053-428B-5507-1B312" index="4">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS149B-14B4-1C97-92F5-1A99B" index="5">
+						  <propertyName>Colloid Percent</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">colloid_percent</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS42FA-16BF-1A36-391D-88AA" index="6">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS3316-182D-29D-EC1E-1459A" index="7">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS2532-FC0-F4F-9FE1-34F7B" index="8">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS291A-2E9-3667-2653-116F1" index="9">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS408-487-1224-7C1C-44D3A" index="10">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS7A88-BE8-1A25-B976-683A0" index="11">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS4E79-4DE-3E51-2E0C-1058D" index="12">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">2,7,3.6231884057971,690,2,0.01,0.5,4.5,6.9,18,49,32</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS68DB-5CE-427B-7900-AE31">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS7887-150C-1C4C-2A5B-48F3D">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6BAF-16D5-40F6-39A7-5E090">
+					  <diggs_geo:particleSize uom="mm">76.1</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>3&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS8B64-37D-6C5-1519-19ACE">
+					  <diggs_geo:particleSize uom="mm">50.8</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">97</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS25D7-1DE-2FFA-7EEF-1F012">
+					  <diggs_geo:particleSize uom="mm">25.4</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">83</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS65D4-60-245E-1519-389C9">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">75</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS615C-1763-26D2-3D61-68CD7">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">51</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS37CD-B8E-4A2A-6FE3-50727">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">40</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS14BC-5FA-404C-146F-17B33">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">34</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS851-609-1F81-B391-3E271">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">29</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS966E-143A-325D-BB5C-66277">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">22</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2D20-7F3-2F9B-F15F-6328A">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">18</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS77B4-8A7-961-8118-9209">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.005</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">7</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2F58-8B9-498C-D9A9-16411">
+					  <diggs_geo:particleSize uom="mm">0.002</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.002</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">2</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGSD53-96D-3D5E-F40C-43CAF">
+					  <diggs_geo:percentLoss uom="%">0.3</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">18</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">18</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_HSR_N-B2_125">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_HSR_N-B2_125"/>
+		  <outcome>
+			<TestResult gml:id="DGS4FD9-6DD-1302-B8F8-4E3B8">
+			  <location xlink:href="#s_p_Boliva_4_HSR_N-B2_125-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS1ADC-1207-BEA-4491-328CC">
+					  <properties>
+						<Property gml:id="DGS338D-16A5-3650-A5D7-593DF" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS37DF-8E1-4503-D2C1-56552" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS8DCB-1234-285C-623B-4370E" index="3">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS1119-5E3-3D9D-102B-27B65" index="4">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS5CD-11F3-26CB-B6C3-2EE7F" index="5">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS4417-1450-3E1B-9263-26EB5" index="6">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGSF09-E70-22FF-5C54-42B02" index="7">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS655C-D97-3776-108D-20B5C" index="8">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS70B0-12AD-4272-A27D-6D12" index="9">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS701E-1749-4D5B-A1AE-3910F" index="10">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS7F5D-621-30D1-7EEC-35DCB" index="11">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">0,0,0.676445211389129,3.21052631578947,0.19,0.28,0.44,0.61,0,0,100</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS3CBB-893-17F2-70A1-57CA3">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS3D2C-26C-3471-A6F9-52493">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS49FC-130-239B-C8FB-3AFCE">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS54EB-158E-298E-DC6F-26E6F">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">50</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS19C1-311-3953-2025-18810">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">20</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSEDD-B13-1CE3-A035-588A3">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">0</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS601B-18C7-4E17-8D70-2E266">
+					  <diggs_geo:percentLoss uom="%">0</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">0</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">0</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_HSR-S-B1_120">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_HSR-S-B1_120"/>
+		  <outcome>
+			<TestResult gml:id="DGS64DF-FF7-1206-D7FB-27390">
+			  <location xlink:href="#s_p_Boliva_4_HSR-S-B1_120-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS5B1B-23-BE1-CF54-2FF09">
+					  <properties>
+						<Property gml:id="DGS8447-C14-61B-3BD3-31BA" index="1">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS2D2D-988-2AAF-D196-69A9" index="2">
+						  <propertyName>Coefficient of Curvature</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_curvature</propertyClass>
+						</Property>
+						<Property gml:id="DGS753A-117B-1359-7699-5159F" index="3">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS8BEE-16DB-2424-40E2-24049" index="4">
+						  <propertyName>d10</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d10</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS8116-15FE-DDC-6A0F-20FF6" index="5">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS1C8F-10AB-29-BFCF-363FF" index="6">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS8F02-1795-3641-F20C-13116" index="7">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS2DB7-15F7-4D2B-BC4D-66F1" index="8">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS38AA-61C-2A1-189C-4EF06" index="9">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS71CE-1745-A6A-E7D4-46077" index="10">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">0,0.222736842105263,95,0.01,0.046,0.45,0.95,37,7,56</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS830B-646-3249-957A-6E66">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS53D9-1431-2EC9-E2F9-5587A">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS73F9-ED0-4D6-1E6B-40B3A">
+					  <diggs_geo:particleSize uom="mm">12.7</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>1/2&quot;</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5A1C-5DC-3AC1-A81A-67549">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">93</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4077-76-410F-C4CE-381E3">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">74</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2AF0-71B-7D5-A9BF-53F32">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">58</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSA0F-1340-4C1D-757E-52E9A">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">50</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6E8B-4BD-C1E-CC5C-419C1">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">47</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS552A-1395-2588-5C7F-245F8">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">37</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS37D6-137A-3C66-9E7B-2A398">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.005</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">0</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS103A-949-108C-ADF2-2ACD0">
+					  <diggs_geo:percentRetained uom="%">37</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">45</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_HSR-S-B1_210">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_HSR-S-B1_210"/>
+		  <outcome>
+			<TestResult gml:id="DGS2218-FA8-4B53-7809-4F5E9">
+			  <location xlink:href="#s_p_Boliva_4_HSR-S-B1_210-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGSA0E1-33D-273A-3C0D-121F9">
+					  <properties>
+						<Property gml:id="DGS825E-1756-81E-6F1D-44925" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS56E7-1515-47EB-A08D-4E288" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS97CB-FCF-435B-43C8-E7DD" index="3">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS81BF-17F-4180-2098-C206" index="4">
+						  <propertyName>Colloid Percent</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">colloid_percent</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS399D-722-45C-AA00-620CE" index="5">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGSA6CB-1192-36F8-62D6-25CC4" index="6">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS6D4F-15C9-4D90-A4C7-635BD" index="7">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS7A5B-762-6CB-B48F-31B94" index="8">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS212A-482-1288-C604-615C8" index="9">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS30BC-593-6A4-7AAA-32CD0" index="10">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">15,22, ,15,0.009,0.039,0.075,60,0,40</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS3482-6F-15F5-9391-5A30B">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS131E-74-27DC-E93D-4F9E6">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS91F4-1526-2A4C-63F7-56258">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6E4F-5D9-4D53-556F-45677">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">92</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS8940-105D-136D-6A0F-27723">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">88</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS7BF5-165B-4F0C-856C-6496E">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">86</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4CCA-1331-4BD7-CF67-4FA4E">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">78</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4F23-3DF-1C21-F67A-433F1">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">60</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5121-217-43FE-B5F-29E0D">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.005</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">22</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2280-2EC-2F85-F7B4-5D6E">
+					  <diggs_geo:particleSize uom="mm">0.002</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.002</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">15</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGSD3F-A5D-361A-CB6D-398F4">
+					  <diggs_geo:percentLoss uom="%">0</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">60</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">23</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_HSR-S-B1_340">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_HSR-S-B1_340"/>
+		  <outcome>
+			<TestResult gml:id="DGS152E-975-2019-F376-361CF">
+			  <location xlink:href="#s_p_Boliva_4_HSR-S-B1_340-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS6351-14B0-3D17-44FA-6CAE">
+					  <properties>
+						<Property gml:id="DGS46BC-20B-888-74A7-52B55" index="1">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS6083-209-210C-8E5D-40022" index="2">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS1CC5-1455-377D-9FA8-C0A1" index="3">
+						  <propertyName>Coefficient of Uniformity</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">coef_uniformity</propertyClass>
+						</Property>
+						<Property gml:id="DGS24E0-171A-3FC7-778F-55AB8" index="4">
+						  <propertyName>Colloid Percent</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">colloid_percent</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS3D4B-16F5-4CA5-3DBB-46988" index="5">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS4E04-C8-4BE7-95A-13197" index="6">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS7662-11C5-3B02-8328-43578" index="7">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS34F1-1547-3104-771F-4D6DF" index="8">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS112B-B12-1D08-3E6E-1BABB" index="9">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS1893-166A-4F69-6933-51054" index="10">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">27,37, ,27,0.0028,0.015,0.031,70,0,30</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS292-13BD-3B12-118E-3BB85">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS4B3-BCC-35E3-AEAF-D55E">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS87C-CA7-38A7-DC7E-465E4">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#4</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS3AE0-601-1415-E117-5A9FC">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">96</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS4E3F-C8E-3109-97D8-514A0">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#20</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">92</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2FAE-842-23E4-879C-221DE">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#40</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">90</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5344-754-F96-11FC-223DA">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#100</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">79</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS8DE3-FC8-3C70-AA6B-5ACBC">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#200</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">70</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6C1A-10D8-147A-7A56-621C1">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.005</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">37</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS67A0-348-4524-A3B-53968">
+					  <diggs_geo:particleSize uom="mm">0.002</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>0.002</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">27</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS3C4F-2D8-3A34-B214-68BD9">
+					  <diggs_geo:percentLoss uom="%">0.2</diggs_geo:percentLoss>
+					  <diggs_geo:percentRetained uom="%">70</diggs_geo:percentRetained>
+					  <diggs_geo:weightRetained uom="g">35</diggs_geo:weightRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_P040U_23.25">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_P040U_23.25"/>
+		  <outcome>
+			<TestResult gml:id="DGS4104-E73-2346-4625-212F4">
+			  <location xlink:href="#s_p_Boliva_4_P040U_23.25-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS7CFE-660-469-9D5D-115CE">
+					  <properties>
+						<Property gml:id="DGS2959-DB7-AA-BFF7-2FE9A" index="1">
+						  <propertyName>Water Content, Coarse Fraction larger than 4.75 mm</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">natural_water_content</propertyClass>
+						  <uom>%</uom>
+						  <sampleFraction>Other: coarser than 4.75 mm</sampleFraction>
+						</Property>
+						<Property gml:id="DGS2326-844-47C-12AA-636D" index="2">
+						  <propertyName>Water Content, Fine Fraction smaller than 4.75 mm</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">natural_water_content</propertyClass>
+						  <uom>%</uom>
+						  <sampleFraction>Other: finer than 4.75 mm</sampleFraction>
+						</Property>
+						<Property gml:id="DGS9B41-121-4DE4-3E1-236D8" index="3">
+						  <propertyName>Less than 2 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_2_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS241D-C69-348E-2235-5F4F7" index="4">
+						  <propertyName>Less than 5 micron clay</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">clay_percent_5_micron</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS4356-441-69C-E16E-19F04" index="5">
+						  <propertyName>Colloid Percent</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">colloid_percent</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS590E-D98-D37-C9EB-688AA" index="6">
+						  <propertyName>d30</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d30</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS90A-225-425C-C44F-2373B" index="7">
+						  <propertyName>d50</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d50</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS6BF7-42F-4E99-52DF-8531" index="8">
+						  <propertyName>d60</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">d60</propertyClass>
+						  <uom>mm</uom>
+						</Property>
+						<Property gml:id="DGS97A8-162D-3086-AF3C-6575D" index="9">
+						  <propertyName>Percent fines</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_fines</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS2804-15A-4944-D6DC-136AE" index="10">
+						  <propertyName>Percent gravel</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_gravel</propertyClass>
+						  <uom>%</uom>
+						</Property>
+						<Property gml:id="DGS7824-110F-31C5-571-65211" index="11">
+						  <propertyName>Percent sand</propertyName>
+						  <typeData>double</typeData>
+						  <propertyClass codeSpace="urn:x-diggs:def:code-list:property">percent_sand</propertyClass>
+						  <uom>%</uom>
+						</Property>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" ">11.0526304244995,21.3333301544189,11,13.97,11,1.4,6,9.6,15.3,55.5,29.2</dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS9712-601-276A-DDF8-2F472">
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_P040U_23.25-wc_cs">
+				  <gml:description>Coarse fraction specimen for water content</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_P040U_23.25" />
+				  <sizeFraction>
+					<SizeFraction gml:id="DGSA6E6-5D7-459B-1AE3-24D73">
+					  <minimumGrainSize uom="mm">4.75</minimumGrainSize>
+					</SizeFraction>  
+				  </sizeFraction>
+				  <drySpecimenWeight uom="g">95.00000291</drySpecimenWeight>
+				  <wetSpecimenWeight uom="g">105.50000291</wetSpecimenWeight>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS4A7E-FC5-4AD8-E626-5DFD4">
+					  <parameterName>Tare Weight</parameterName>
+					  <parameterValue>14.80000019</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS1A59-1646-3679-1578-20259">
+					  <parameterName>Weighing Method</parameterName>
+					  <parameterValue>I</parameterValue>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				</SpecimenConditions>  
+			  </initialSpecimenConditions>
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_P040U_23.25-wc_fi">
+				  <gml:description>Fine fraction specimen for water content</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_P040U_23.25" />
+				  <sizeFraction>
+					<SizeFraction gml:id="DGS58DA-1023-3855-49CC-1F49B">
+					  <maximumGrainSize uom="mm">4.75</maximumGrainSize>
+					</SizeFraction>  
+				  </sizeFraction>
+				  <drySpecimenWeight uom="g">37.50000095</drySpecimenWeight>
+				  <wetSpecimenWeight uom="g">45.50000095</wetSpecimenWeight>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS450B-8F7-32ED-A6E0-296A9">
+					  <parameterName>Tare Weight</parameterName>
+					  <parameterValue>10.69999981</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS4EF2-80B-3CBA-ED36-3B911">
+					  <parameterName>Weighing Method</parameterName>
+					  <parameterValue>I</parameterValue>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				</SpecimenConditions>
+			  </initialSpecimenConditions>
+			  <initialSpecimenConditions>
+				<SpecimenConditions gml:id="s_p_Boliva_4_P040U_23.25-ts">
+				  <gml:description>Total Specimen</gml:description>
+				  <sampleRef xlink:href="#s_p_Boliva_4_P040U_23.25" />
+				  <wetSpecimenWeight uom="g">502.6000061</wetSpecimenWeight>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS1539-69C-4656-A64C-24A9D">
+					  <parameterName>Weight Passing Split Sieve</parameterName>
+					  <parameterValue>234.5189972</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS4115-8C7-4C65-9E8E-1E3F9">
+					  <parameterName>Weight of Fines Tested</parameterName>
+					  <parameterValue>170</parameterValue>
+					  <parameterUnits>g</parameterUnits>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				  <otherSpecimenProperty>
+					<Parameter gml:id="DGS7846-15F0-7B6-94BB-621E6">
+					  <parameterName>Weighing Method</parameterName>
+					  <parameterValue>I</parameterValue>
+					</Parameter>  
+				  </otherSpecimenProperty>
+				</SpecimenConditions>  
+			  </initialSpecimenConditions>
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS13F9-14A3-1184-FC7B-21675">
+				  <diggs_geo:coarseFractionWetSieved>false</diggs_geo:coarseFractionWetSieved>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS37C1-D48-3900-8DE1-4709B">
+					  <diggs_geo:particleSize uom="mm">76.1</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">0</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5A03-1337-2198-68FB-41012">
+					  <diggs_geo:particleSize uom="mm">38.1</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">90.95896912</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">39.29999924</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS9325-42D-590-3DDF-324EE">
+					  <diggs_geo:particleSize uom="mm">19</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">81.84892273</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">39.60000229</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS1EC7-13CC-6E6-5559-4AB18">
+					  <diggs_geo:particleSize uom="mm">9.5</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">59.97100067</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">95.10000229</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS1810-92B-321A-C3F3-2CA0A">
+					  <diggs_geo:particleSize uom="mm">4.75</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">44.46551895</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">67.39999771</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS3FF6-51B-1E1D-E178-2B743">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">34.18299103</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">32.39999962</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSF07-1946-24BC-BA64-1D654">
+					  <diggs_geo:particleSize uom="mm">0.85</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">27.2645092</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">21.80000114</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS2456-FDD-4CE1-B73C-5159B">
+					  <diggs_geo:particleSize uom="mm">0.425</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">21.93283081</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">16.80000114</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS5B1C-105B-2F91-ADCB-32CD3">
+					  <diggs_geo:particleSize uom="mm">0.15</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">17.68018913</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">13.39999962</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGSA9D-152D-399A-6B9A-256FC">
+					  <diggs_geo:particleSize uom="mm">0.075</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">15.29996967</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">7.5</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS908C-321-4C5F-CB8B-45D1B">
+					  <diggs_geo:particleSize uom="mm">0.005</diggs_geo:particleSize>
+					  <diggs_geo:percentPassing uom="%">13.9670496</diggs_geo:percentPassing>
+					  <diggs_geo:weightRetained uom="g">4.200000763</diggs_geo:weightRetained>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				  <diggs_geo:panData>
+					<diggs_geo:PanData gml:id="DGS5B8B-AE6-2111-ED-1B936">
+					  <diggs_geo:percentRetained uom="%">15.3</diggs_geo:percentRetained>
+					</diggs_geo:PanData>				  
+				  </diggs_geo:panData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+	<measurement>
+		<Test gml:id="ps_s_p_Boliva_4_Ghent_10">		
+		  <investigationTarget>Natural Ground</investigationTarget>
+		  <sampleRef xlink:href="#s_p_Boliva_4_Ghent_10"/>
+		  <outcome>
+			<TestResult gml:id="DGS37AB-13C2-4BD1-9D02-63E20">
+			  <location xlink:href="#s_p_Boliva_4_Ghent_10-sloc"/>
+			  <results>
+				<ResultSet>
+				  <parameters>
+					<PropertyParameters gml:id="DGS10BA-1089-3A69-3E49-3D8D0">
+					  <properties>
+					  </properties>
+					</PropertyParameters>  
+				  </parameters>
+				  <dataValues cs="," decimal="." ts=" "></dataValues>
+				</ResultSet>			  
+			  </results>
+			</TestResult>		  
+		  </outcome>
+  		 <procedure>
+			<diggs_geo:ParticleSizeTest gml:id="DGS38B2-B5F-4EC1-F71E-40CEE">
+			  <diggs_geo:sieveAnalysis>
+				<diggs_geo:SieveAnalysis gml:id="DGS5A3E-3E8-1DDE-F23E-11ED2">
+				  <diggs_geo:gradingData>
+					<diggs_geo:Grading gml:id="DGS6171-920-240F-9613-5804E">
+					  <diggs_geo:particleSize uom="mm">2</diggs_geo:particleSize>
+					  <diggs_geo:sieveNumber>#10</diggs_geo:sieveNumber>
+					  <diggs_geo:percentPassing uom="%">100</diggs_geo:percentPassing>
+					</diggs_geo:Grading>			  
+				  </diggs_geo:gradingData>
+				</diggs_geo:SieveAnalysis>
+			  </diggs_geo:sieveAnalysis>
+			</diggs_geo:ParticleSizeTest>  		 
+  		 </procedure>
+		</Test>
+	</measurement>
+    <group>
+		<SamplingFeatureGroup gml:id="DGS2E06-162D-6D7-602B-57E62">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_P040U"/>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_YP1_B2"/>
+		</SamplingFeatureGroup>
+    </group>
+    <group>
+		<SamplingFeatureGroup gml:id="DGS9384-4BB-498E-F0E2-3EEE9">
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR-S-B1"/>
+		  <samplingFeatureRef xlink:href="#p_Boliva_4_HSR_N-B2"/>
+		</SamplingFeatureGroup>
+    </group>
+    <businessAssociate>
+		<BusinessAssociate gml:id="cid_13">
+		  <gml:name codeSpace="Client Number">13</gml:name>
+		  <gml:name>Bedrock Quarry, Ltd.</gml:name>
+		</BusinessAssociate>
+    </businessAssociate>
+    <businessAssociate>
+		<BusinessAssociate gml:id="ba_log_4">
+		  <gml:name>CHG and GLD</gml:name>
+		  <title>Geologist</title>
+		</BusinessAssociate>
+    </businessAssociate>
+    <businessAssociate>
+		<BusinessAssociate gml:id="ba_rev_4">
+		  <gml:name>BB</gml:name>
+		  <title>Supervisor</title>
+		</BusinessAssociate>
+    </businessAssociate>
+    <businessAssociate>
+		<BusinessAssociate gml:id="ba_log_11">
+		  <gml:name>CHG and GLD</gml:name>
+		  <title>Engineer</title>
+		</BusinessAssociate>
+    </businessAssociate>
+</Diggs>

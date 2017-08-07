@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+ <link rel="stylesheet" href="div.css">
+<title>Diggs Graph</title>
+<script type="text/javascript" language="javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript" language="javascript" src="jquery.flot.js"></script>
+
+
+</head>
+<body>
+<input id="selectFile" type="file">
+<script>
+function parseTextAsXml(text) {
+    var parser = new DOMParser(),
+        xmlDom = parser.parseFromString(text, "text/xml");
+
+    //now, extract items from xmlDom and assign to appropriate text input fields
+}
+
+function waitForTextReadComplete(reader) {
+    reader.onloadend = function(event) {
+        var text = event.target.result;
+
+        parseTextAsXml(text);
+    }
+}
+
+function handleFileSelection() {
+    var file = fileChooser.files[0],
+        reader = new FileReader();
+
+    waitForTextReadComplete(reader);
+    reader.readAsText(file);
+}
+
+fileChooser.addEventListener('change', handleFileSelection, false);
+</script>
+
+</body>
+</html>
