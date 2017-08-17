@@ -12,26 +12,28 @@
 </head>
 <body>
 
+<h1>DIGGS Demo</h1>
+
 <input type="text" id="fileUpload">
 <button id="removebtn" type="button" onclick="loadXMLDoc()">Get Data</button>
 
 
 <script >
 
-function loadXMLDoc() 
+function loadXMLDoc()
 {
  var filePath = document.getElementById("fileUpload").value;
-    
-	
-	
-	
+
+
+
+
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function() {
 
   if (this.readyState == 4 && this.status == 200) {
-	  
+
       myFunction(this);
-	  
+
     }
   };
  // filePath.toString;
@@ -39,7 +41,7 @@ function loadXMLDoc()
   xmlhttp.send();
   //alert(err);
  //  document.getElementById("removebtn").remove();
- 
+
 }
 function myFunction(xml) { //processes the file to get "percentPassing" and "particleSize"
 
@@ -47,84 +49,84 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 		alert("hi");
 		var i;
 		var xmlDoc = xml.responseXML;
-		
+
 		var x = xmlDoc.getElementsByTagName("procedure");
 		var data =new Array (x.length);
-		for (i = 0; i <x.length; i++) { 
+		for (i = 0; i <x.length; i++) {
 			var testdata = [];
 			var j;
 			//document.getElementById("demo").innerHTML = x[i].getElementsByTagName("percentPassing").length;
 			for (j=0;j<x[i].getElementsByTagName("percentPassing").length;j++){
 				var passing=x[i].getElementsByTagName("percentPassing")[j].childNodes[0].nodeValue;
 				var size=x[i].getElementsByTagName("particleSize")[j].childNodes[0].nodeValue;
-				
+
 
 				testdata.push(size,passing);
-				
-				
-				
+
+
+
 			}
-			
+
 			var temp=new Array(testdata.length/2);
 			var j;
 			var k=0;
 			for (j=0;k<temp.length;j++){
-				
+
 				temp[k]=[testdata[j],testdata[j+1]];
 				k++;
 				j++
 				//alert (k);
-				
+
 			}
 			data[i]=new Array();
 			for (j=0;j<temp.length;j++){
 				data[i][j]=temp[j];
 				//alert(data[i][j]);
 			}
-			
-			
-		
+
+
+
 		}
-		
-		
-		
-		
-		
+
+
+
+
+
 		//alert(data[11][0]);
-	
+
 		$(function() {
 		//var options1 = {
 			//lines: { show: true  },
-		
+
 			//xaxis: { ticks: [0.001,0.01,0.1,1,10,100],
 				//transform:  Function("v","return v == 0 ? Math.log("+Math.pow(10,0)+") : Math.log(v);"), tickDecimals: 3 },
 		//	grid: { hoverable: true, clickable: true , color: "#999"}
 	//	};
-		
+
 		var datasets;
-		
-		
+
+
 			datasets = {
 				0: {
 					label: "0" ,
 					data: data[0]
-				},  
+				},
 				1: {
 					label: 1 ,
 					data: data[1]
-				} ,    
+				} ,
 				2: {
 					label: 2 ,
 					data: data[2]
-				} ,    
+				} ,
 				3: {
 					label: 3 ,
 					data: data[3]
-				} ,    
+				} ,
 				4: {
 					label: 4 ,
 					data: data[4]
-				} ,    
+				} ,
 				5: {
 					label: 5 ,
 					data: data[5]
@@ -132,30 +134,30 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 				6: {
 					label: 6 ,
 					data: data[6]
-				}, 
+				},
 				7: {
 					label: 7 ,
 					data: data[7]
-				}, 
+				},
 				8: {
 					label: 8 ,
 					data: data[8]
-				}, 
+				},
 				9: {
 					label: 9 ,
 					data: data[9]
-				}, 
+				},
 				10: {
 					label: 10 ,
 					data: data[10]
-				}, 
+				},
 				11: {
 					label: 11 ,
 					data: data[11]
-				} 
-			
+				}
+
 			};
-		
+
 		// hard-code color indices to prevent them from shifting as
 		// countries are turned on/off
 
@@ -165,7 +167,7 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 			++q;
 		});
 
-		// insert checkboxes 
+		// insert checkboxes
 		var choiceContainer = $("#choices");
 		$.each(datasets, function(key, val) {
 			choiceContainer.append("<br/><input type='checkbox' name='" + key +
@@ -183,17 +185,17 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 
 			choiceContainer.find("input:checked").each(function () {
 				var key = $(this).attr("name");
-				if (key && datasets[key]) 
+				if (key && datasets[key])
 				{
 					data2.push(datasets[key]);
 					table += "<tr><td>" + "Data Set " + key + "</td>";
-					for (i = 0; i<data[key].length; i++) 
-					{ 
+					for (i = 0; i<data[key].length; i++)
+					{
 						table += "<td>" +
 						data[key][i] +
 						"</td>";
 						document.getElementById("myTable").innerHTML = table;
-						
+
 					}
 					table += "</tr>";
 				}
@@ -202,21 +204,21 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 			if (data2.length > 0) {
 				$.plot("#placeholder", data2, {
 					yaxis: {
-						
+
 						max:100
 					},
-					xaxis: 
+					xaxis:
 					{
 					//	min: 0,
 						ticks: [0.0001,0.001,0.01,0.1,1,10,100,1000],
-						
+
 						transform:  function(v) {return Math.log(v+0.0001); /*move away from zero*/} ,
 						tickDecimals: 4 ,
 						tickFormatter: function (v, axis) {return "10" + (Math.round( Math.log(v)/Math.LN10)).toString().sup();}
 					}
 						//grid: { hoverable: true, clickable: true , color: "#999"}
-						
-					
+
+
 				});
 			}
 		}
@@ -227,7 +229,7 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 
 		$("#footer").prepend("Flot " + $.plot.version + " &ndash; ");
 	});
-	
+
 
 	}
 
@@ -257,10 +259,10 @@ function myFunction(xml) { //processes the file to get "percentPassing" and "par
 		<td>
 		<div>
 			<div id="placeholder"></div>
-			
-	
 
-			
+
+
+
 		</div>
 		</td>
 		<td id="choices"></td>
